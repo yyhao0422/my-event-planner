@@ -1,0 +1,12 @@
+{
+  "resourceName": "EventImages",
+  "policyUUID": "a3d52d73",
+  "bucketName": "myeventplannerbucket",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "NONE"
+}

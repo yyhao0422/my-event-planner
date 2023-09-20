@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myeventplanner-dev-172052-authRole",
+      "UnauthRoleArn": "arn:aws:iam::521549251047:role/amplify-myeventplanner-dev-172052-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::521549251047:role/amplify-myeventplanner-dev-172052-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-myeventplanner-dev-172052-deployment",
+      "UnauthRoleName": "amplify-myeventplanner-dev-172052-unauthRole",
+      "StackName": "amplify-myeventplanner-dev-172052",
+      "StackId": "arn:aws:cloudformation:us-east-1:521549251047:stack/amplify-myeventplanner-dev-172052/d600dfd0-56cd-11ee-8a99-0e58a0b267a9",
+      "AmplifyAppId": "d1fe733pm4pf0"
+    },
+    "categories": {
+      "auth": {
+        "myeventplannerAuth": {},
+        "userPoolGroups": {}
+      },
+      "api": {
+        "myeventplanner": {}
+      },
+      "storage": {
+        "EventImages": {}
+      },
+      "function": {
+        "FindSuitableRooms": {
+          "deploymentBucketName": "amplify-myeventplanner-dev-172052-deployment",
+          "s3Key": "amplify-builds/FindSuitableRooms-41456b32592b4a347966-build.zip"
+        }
+      }
+    }
+  }
+}
